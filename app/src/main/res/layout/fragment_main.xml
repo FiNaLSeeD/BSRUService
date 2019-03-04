@@ -58,5 +58,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/txtGender"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="New Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </FrameLayout>

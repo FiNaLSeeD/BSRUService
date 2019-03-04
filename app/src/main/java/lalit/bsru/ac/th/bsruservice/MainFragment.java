@@ -45,6 +45,20 @@ public class MainFragment extends Fragment {
 
             }
         });
+
+        TextView textView1 = getView().findViewById(R.id.txtGender);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//          Replace Fragment
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.layoutMainFragment, new TempleFragment())
+                        .commit();
+
+            }
+        });
     }
 
     @Override
